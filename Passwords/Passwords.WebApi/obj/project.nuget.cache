@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G23sWMBIJvEOcEXsWFD9YvyoZLfnwIliCo0RRja5pgkWUkmKMM+o4UXBUfPutrjM81tZ1tB5EHwe76Nvu5/ejA==",
+  "dgSpecHash": "4iZCISeUgaM1AO/tJQmYtJy0igRg27gdKvlPZ5PPVS8rk8Md/CH6PKP6+t2cawd9xPP5Ekjm4uVGPIugGpT4mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Passwords\\Passwords.WebApi\\Passwords.WebApi.csproj",
+  "projectFilePath": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.WebApi\\Passwords.WebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

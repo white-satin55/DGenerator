@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Passwords.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Passwords.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Passwords.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Passwords.Application.dll": {}
+        }
+      },
+      "Passwords.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Passwords.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Passwords.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Passwords.Application/1.0.0": {
+      "type": "project",
+      "path": "../Passwords.Application/Passwords.Application.csproj",
+      "msbuildProject": "../Passwords.Application/Passwords.Application.csproj"
+    },
+    "Passwords.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Passwords.Domain/Passwords.Domain.csproj",
+      "msbuildProject": "../Passwords.Domain/Passwords.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Passwords.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nikit\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Test\\Passwords.Test.csproj",
+      "projectName": "Passwords.Test",
+      "projectPath": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Test\\Passwords.Test.csproj",
+      "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Application\\Passwords.Application.csproj": {
+              "projectPath": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Application\\Passwords.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

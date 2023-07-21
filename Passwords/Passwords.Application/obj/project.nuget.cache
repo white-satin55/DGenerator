@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9Ncv8BmZ2vir6SKjhAQuYY50iT5PpJVPDJG7G+LeV+Mm/qZQllpSedN13ZgWRcTgWKRbRG9RmLG95nXMg//OA==",
+  "dgSpecHash": "0M22mi671+UWRvpb4Wgy+nEbYSvk4wG/oT4ZnpffzFlbV0QQJTVYyjs8wlCPOzqZZ+BbvwKaUCJ8bzJhP70c8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Passwords\\Passwords.Application\\Passwords.Application.csproj",
+  "projectFilePath": "D:\\Projects\\DGenerator\\DGenerator\\Passwords\\Passwords.Application\\Passwords.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
